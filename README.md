@@ -764,34 +764,6 @@ This project is for educational purposes.
 
 ---
 
-## 🐛 Troubleshooting
-
-### MongoDB Connection Error
-
-**Lỗi**: `connect ECONNREFUSED 127.0.0.1:27017`
-
-**Giải pháp**:
-1. Kiểm tra MongoDB service đã chạy chưa
-2. Windows: `net start MongoDB`
-3. Linux: `sudo systemctl start mongod`
-
-### Port Already in Use
-
-**Lỗi**: `EADDRINUSE: address already in use`
-
-**Giải pháp**:
-1. Thay đổi PORT trong `.env`
-2. Hoặc kill process đang dùng port: `npx kill-port 4000`
-
-### Module Not Found
-
-**Lỗi**: `Cannot find module 'xxx'`
-
-**Giải pháp**:
-1. Xóa `node_modules` và `package-lock.json`
-2. Chạy lại `npm install`
-
----
 
 **Last Updated**: 2024
 
