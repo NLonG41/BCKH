@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-package-lock.json
+# package-lock.json - NÊN commit file này để đảm bảo mọi người dùng cùng phiên bản
 
 # Environment variables
 .env
@@ -38,43 +38,15 @@ coverage/
 *.tmp
 *.temp
 
-# Android/Gradle
-.gradle/
-.android/
-.expo/
-
 # System files
 .cache/
-.config/
 .cursor/
 .cursor_fixed
 .cursor_info
-.emulator_console_auth_token
-.skiko/
-.gitconfig
 
-# User directories (if git is in home directory)
-AppData/
-Contacts/
-Downloads/
-Favorites/
-Links/
-Music/
-OneDrive/
-Saved Games/
-Searches/
-Videos/
-*.exe
-*.pdf
-*.html
-*.dat
+# Temporary/system files
+*.tmp
+*.temp
+*.log
 *.LOG*
-*.regtrans-ms
-*.ini
-NTUSER.*
-CHFIv10*/
-USTHAdminApp/
-battery-report.html
-confidential.pdf
-gradle/
 
