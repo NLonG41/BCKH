@@ -1,0 +1,31 @@
+{
+  "name": "library-portal",
+  "version": "1.0.0",
+  "description": "Library web portal for login, borrow/return, stats, notifications, and recommendations.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed.js",
+    "clear:data": "node scripts/clearData.js",
+    "delete:users": "node scripts/deleteUsers.js",
+    "test:api": "node test-api.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.2"
+  }
+}
+

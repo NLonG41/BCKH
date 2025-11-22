@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Android/Gradle
+.gradle/
+.android/
+.expo/
+
+# System files
+.cache/
+.config/
+.cursor/
+.cursor_fixed
+.cursor_info
+.emulator_console_auth_token
+.skiko/
+.gitconfig
+
+# User directories (if git is in home directory)
+AppData/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+*.exe
+*.pdf
+*.html
+*.dat
+*.LOG*
+*.regtrans-ms
+*.ini
+NTUSER.*
+CHFIv10*/
+USTHAdminApp/
+battery-report.html
+confidential.pdf
+gradle/
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201 251">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030712;stop-opacity:1" />
+      <stop offset="45%" style="stop-color:#050826;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#030617;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="20%" cy="20%">
+      <stop offset="0%" style="stop-color:rgba(59,130,246,0.55);stop-opacity:1" />
+      <stop offset="45%" style="stop-color:transparent;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="pinkGlow" cx="80%" cy="0%">
+      <stop offset="0%" style="stop-color:rgba(244,63,94,0.4);stop-opacity:1" />
+      <stop offset="35%" style="stop-color:transparent;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="201" height="251" fill="url(#bgGradient)"/>
+  <rect width="201" height="251" fill="url(#blueGlow)"/>
+  <rect width="201" height="251" fill="url(#pinkGlow)"/>
+  <path fill="#00388f" d="M114.3 125.5v90.3c0 13.5-11 24.5-24.5 24.5h-4.8V139.6c0-5.4 2.1-10.6 5.9-14.4l23.4-23.4z"/>
+  <path fill="#e11928" d="M87.2 110.1L14.9 37.7C5.3 28.1 5.3 12.5 14.9 3c3.8-3.8 9-5.9 14.4-5.9H59c13.5 0 24.5 11 24.5 24.5v88.5c0 5.4-2.1 10.6-5.9 14.4l-7.9 7.8c-7.7 7.7-20 7.7-27.6 0z"/>
+  <path fill="#e11928" d="M114.3 110.1L186.6 37.7c9.6-9.6 9.6-25.2 0-34.8-3.8-3.8-9-5.9-14.4-5.9h-29.7c-13.5 0-24.5 11-24.5 24.5v88.5c0 5.4 2.1 10.6 5.9 14.4l7.9 7.8c7.7 7.7 20 7.7 27.6 0z"/>
+</svg>
+
